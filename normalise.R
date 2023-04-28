@@ -48,7 +48,7 @@ qqline(non_normalised_data$x)
 shapiro.test(normalised_data$x)
 shapiro.test(non_normalised_data$x)
 
-
+tapply(temp, index, function)
 #option 4 : kolmogorov- smirnov test
 # if the p-value > 0.05 then data is normally distributed
 # if p-value < 0.05 then data is not normally distributed
